@@ -1,0 +1,25 @@
+.topSector {
+    background-color: rgb(136, 229, 252);
+}
+
+.headline {
+  color: black;
+  text-align: center;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.navBar {
+    list-style-type: none;
+    overflow:hidden;
+    text-align: center;
+}
+
+.navElem {
+    display: inline;
+    padding: 5px;
+}
+
+.navElem + .navElem:before{
+    content: " | ";
+    padding: 0 30px;
+}
