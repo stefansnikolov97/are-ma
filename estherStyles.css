@@ -12,6 +12,7 @@
     list-style-type: none;
     overflow:hidden;
     text-align: center;
+    color: gray;
 }
 
 .navElem {
@@ -22,4 +23,18 @@
 .navElem + .navElem:before{
     content: " | ";
     padding: 0 30px;
+    color: rgb(131, 186, 200);
+}
+
+.description {
+    text-align: center;
+    font-weight: bold;
+}
+
+.blueBar {
+    background-color: rgb(77, 215, 250);
+}
+
+hr {
+    border: 0;
 }
